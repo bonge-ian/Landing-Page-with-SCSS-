@@ -1,0 +1,34 @@
+%no-space {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+%container {
+    margin: 0 auto;
+    max-width: 64rem;
+    width: 90%;
+    overflow: hidden;
+}
+
+%overlay {
+    background-color: scale-color($dark, $alpha: -65%);
+    height: 100%;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+%button {
+    border: none;
+    text-align: center;
+    padding: .677rem $padding;
+    border-radius: .223rem;
+    background: complement($primary);
+    color: $white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
